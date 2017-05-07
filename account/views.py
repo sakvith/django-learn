@@ -11,4 +11,4 @@ def home(request):
 
     args = {'myName':name, 'numbers':numbers}
 
-    return render(request, 'account/login.html', args)
+    return render(request, 'account/home.html', args)
